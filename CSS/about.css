@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1, p, li{
+    color:#FF8500;
+} 
+
+ol {
+    list-style-type: none;
+}
