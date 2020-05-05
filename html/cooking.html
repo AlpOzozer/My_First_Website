@@ -2,31 +2,153 @@
 <html lang="en">
 <head>
     <title>Cooking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href='../CSS/cooking.css' rel='stylesheet'>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="homepage.html">Home Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Video Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cooking</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
     <header>
-        <h1>This is the page about my cooking.</h1>
+        <h1>Delicious Recipes</h1>
     </header>
-    <div id='recipes'>
+    <div id='recipes' class="container">
         <h2>My Recipes</h2>
-        <ul>
-            <li>pizza</li>
-            <li>pasta</li>
-            <li>cookie</li>
-            <li>cake</li>
-            <li>burger</li>
+        <br>
+        <ul id='list'>
+            <li><a href='#pizza'>pizza</a></li>
+            <li><a href='#pasta'>pasta</a></li>
+            <li><a href='#cookie'>cookie</a></li>
+            <li><a href='#cake'>cake</a></li>
+            <li><a href='#burger'>burger</a></li>
+            <li><a href='#salad'>salad</a></li>
         </ul>
-        <h3>Pizza</h3>
-        <ol>
-            <li>Take one pita</li>
-            <li>Open up the pizza</li>
-            <li>Take one pizza sauce and put it on the pita</li>
-            <li>Take one or two slices of cheese and rip them up</li>
-            <li>Put the pieces on the sauce</li>
-            <li>Put the pita in the oven for 15 minutes</li>
-            <li>Enjoy!</li>
-        </ol>
+        <br>
+        <div class="row">
+            <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h3 id='pizza'>Pizza</h3>
+                    <br>
+                    <ol>
+                        <li>Take one pita bread</li>
+                        <li>Take one pizza sauce and put it on the pita</li>
+                        <li>Take one or two slices of cheese and rip them up</li>
+                        <li>Put the pieces on the sauce</li>
+                        <li>Put the pita in the oven for 15 minutes</li>
+                        <li>Enjoy!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h3 id='burger'>Burger</h3>
+                    <ol>
+                        <li>Take bread and burger out of freezer.</li>
+                        <li>Warm up bread in toaster.</li>
+                        <li>Warm up burger in frying pan.</li>
+                        <li>Put bread on plate and add ketchup and mayonaise.</li>
+                        <li>Put burger on the bread and close the sandwhich.</li>
+                        <li>Enjoy!</li>
+                    </ol>
+                    <br>
+                </div>
+            </div>
+        </div>
     </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h3 id='pasta'>Pasta</h3>
+                    <ol>
+                        <li>Boil some water in a pot.</li>
+                        <li>When the water is hot put the pasta in the water.</li>
+                        <li>Mix the pasta around.</li>
+                        <li>Put olive oil and salt.</li>
+                        <li>When the pasta is ready pour it out into a strainer.</li>
+                        <li>If you like add some butter.</li>
+                        <li>Enjoy!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <h3 id='cake'>Banana Chocolate Chip Cake</h3>
+                <ol>
+                    <li>Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x13 inch pan.</li>
+                    <li>In a large bowl, mix flour, sugar, baking powder and salt.</li>
+                    <li>In a separate bowl, combine bananas, egg, melted butter and milk.</li>
+                    <li>Stir banana mixture into flour mixture until blended. Be careful not to over mix.</li>
+                    <li>Stir in chocolate chips.</li>
+                    <li>Pour batter into 9x13 inch pan. Bake at 350 degrees F (175 degrees C) 30 to 35 minutes, or until a toothpick inserted into center of cake comes out clean. (It will have some melted chocolate, but no crumbs.)</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h3 id='cookie'>Cookie</h3>
+                    <ol>
+                        <li>Melt chocolate over a double boiler or in the microwave, stirring occasionally until smooth. Sift together flour, cocoa, baking powder, and salt; set aside.</li>
+                        <li>In a medium bowl, cream butter with white sugar and brown sugar until smooth. Beat in eggs one at a time, then stir in coffee crystals and vanilla until well blended. Stir in melted chocolate. Using a wooden spoon, stir in the dry ingredients just until everything comes together. Cover, and let stand for 35 minutes so the chocolate can set up.</li>
+                        <li>Preheat the oven to 350 degrees F (175 degrees C). Line two cookie sheets with parchment paper. Roll dough into walnut sized balls, or drop by rounded tablespoonfuls onto the prepared cookie sheets, leaving 2 inches between cookies.</li>
+                        <li>Bake for 8 to 10 minutes in the preheated oven. Cookies will be set, but the centers will still be very soft because of the chocolate. Allow cookies to cool on the baking sheets for 10 minutes before transferring to wire racks to cool completely.</li>
+                    </ol>
+                    </div>
+                </div>
+            </div>
+            <div class='col'>
+                <div class='card'>
+                    <div class='card-body'>
+                        <h3 id='salad'>Salad</h3>
+                        <ol>
+                            <li>Chop the tomatoes into approx 1-inch pieces. Place in a bowl with a few tablespoons of sherry vinegar, a splash of olive oil, ½ a smashed garlic clove (remove it later), and a few pinches of salt & pepper. Let the tomatoes marinate at room temp (stirring occasionally), while you prep everything else. Taste and adjust seasonings as it sits.</li>
+                            <li>Cook the orzo in salted boiling water for 7-9 minutes or until al dente. While you're waiting for it, take a large bowl and rub the inside of it with the cut side of the other half of your garlic clove.</li>
+                            <li>Drain your orzo and place it (warm) into the bowl. Add a good glug of olive oil, then the arugula, chickpeas, lemon juice, salt & pepper, and toss. Taste and adjust seasonings.</li>
+                            <li>Dice your avocado and season it with a squeeze of lemon and a bit of salt.</li>
+                            <li>Place the orzo salad onto a serving plate (or just keep it in the same bowl).</li>
+                            <li>Take the tomatoes and drain out most of the liquid at the bottom of their bowl (this will keep your salad from becoming too watery). Find that smashed garlic clove and remove it. Place the tomatoes onto the salad with the diced avocado, basil and pine nuts. Taste and adjust seasonings one last time.</li>
+                            <li>Enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
