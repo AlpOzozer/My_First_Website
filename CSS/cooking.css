@@ -2,7 +2,7 @@
     margin: 0px;
 }
 header{
-    background-image: url(https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://specials-images.forbesimg.com/imageserve/634758067/960x0.jpg?cropX1=66&cropX2=5131&cropY1=176&cropY2=3553);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -12,8 +12,19 @@ header{
 h1 {
     text-align: center;
     padding-top: 20%;
+    color: darkgreen;
 }
 #recipes{
     margin-top: 30px;
     text-align: center;
+}
+
+.card {
+    /* width: 500px; */
+}
+body{
+    background-color: seagreen;
+}
+#list{
+    list-style-type: none;
 }
